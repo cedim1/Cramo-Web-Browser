@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body style="text-align: center>
+    <h2>welcome to cramo</h2>
+    <p>Enter a url:</p>
+    <input type="text" placeholder="Url Bar" id="ImUrl">
+    <button style="color: green" onclick="OpenUrl()"></button>
+    <script>
+      function OpenUrl() {
+        var VALOFIUrl = document.getElementById("ImUrl").value;
+        open(VALOFUrl)
+      }
+    </script>
+    <h3>OR</h3>
+    <p>Search using google</p>
+    <input type="search" placeholder="🔎 Search the web" id="goosea">
+    <button style="color: green" onclick="googlse()"></button>
+    <script>
+      function googlse() {
+        var VALGOO = document.getElementById("googlse").value;
+        open("https://www.google.co.uk/search?q=" + VALGOO)
+      }
+    </script>
+  </body>
+</html>
